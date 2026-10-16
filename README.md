@@ -41,6 +41,21 @@ python 01_config_router.py
 ## Nota de seguridad: Los scripts están diseñados para no imprimir las credenciales en pantalla durante la ejecución.
 ## Solo devolverán por consola los errores o rechazos generados por el sistema operativo IOS (líneas que comiencen con %).
 
+## 🗺️ Próximos pasos
+
+**Cierre de la etapa 1**
+- [ ] Restringir las VLANs permitidas en los troncales (`allowed vlan`) y apagar los puertos sin uso.
+- [ ] Configurar DHCP (pool y relay).
+- [ ] Crear una plantilla personalizada en Zabbix.
+- [ ] Integrar Zabbix con Grafana para armar dashboards más completos.
+
+**Etapa 2: conexión entre sedes**
+- [ ] Sumar las sucursales 2 y 3 al laboratorio.
+- [ ] Conectar las sedes por VPN.
+
+**Etapa 3: enlaces redundantes**
+- [ ] Agregar EtherChannel entre los switches.
+
 Soy técnica en redes en formación, una apasionada por la infraestructura, la resolución de problemas y el monitoreo. Construí este laboratorio como un entorno de aprendizaje continuo y desafío personal mientras busco mi primera oportunidad laboral en el sector IT.
 
 📫 ¡Conectemos! Podés encontrarme en LinkedIn https://www.linkedin.com/in/stefania-eliana-randazzo/ 
