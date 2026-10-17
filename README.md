@@ -1,8 +1,12 @@
-<img width="6050" height="2650" alt="aca" src="https://github.com/user-attachments/assets/611f877e-ed6f-4278-861a-e7ebf0df8696" /># 🚀 Automatización y Monitoreo de Red Corporativa (Etapa 1)
+🚀 Automatización y Monitoreo de Red Corporativa (Etapa 1)
 
 Este repositorio contiene la primera etapa de mi laboratorio integrador, donde integro los fundamentos de infraestructura de redes (CCNA) con la programabilidad y la observabilidad. El objetivo es simular un entorno corporativo, automatizar su configuración y monitorearlo en tiempo real.
 
 > Es un laboratorio virtual y aislado: no hay equipos físicos ni tráfico de producción. Las IPs y credenciales son de laboratorio.
+
+<img width="1452" height="636" alt="image" src="https://github.com/user-attachments/assets/31665da9-c94b-48c2-bcd1-5d53e91d7238" />
+<img width="1258" height="1354" alt="image" src="https://github.com/user-attachments/assets/edc47e43-5cf3-4858-9e23-e417c7bf1cdc" />
+
 
 ## 🛠️ Tecnologías utilizadas
 
