@@ -22,6 +22,7 @@ Este repositorio contiene la primera etapa de mi laboratorio integrador, donde u
 * **`00_leer_config_router.py`**: Comprueba la conexión SSH y extrae de forma segura la configuración actual del equipo de borde (`show ip interface brief` y `show running-config`).
 * **`01_config_router.py`**: Automatiza el despliegue de seguridad base (SSH, contraseñas cifradas), configura y levanta las subinterfaces, y habilita el agente SNMP restringido.
 * **`02_config_switches.py`**: Utiliza un inventario estructurado (lista de diccionarios) para crear VLANs de forma masiva y asignar los puertos de acceso (`spanning-tree portfast`) en todos los switches de la topología.
+*  **`DHCP.py`**: Automatiza el despliegue del servicio DHCP en el equipo de borde (Router-on-a-Stick). Mediante un ciclo iterativo e inputs dinámicos, el script permite crear y configurar múltiples pools de forma secuencial en una sola ejecución. Solicita en tiempo real los parámetros clave (rango de IPs excluidas, dirección de red, máscara, default-router y servidor DNS) para asignar direcciones dinámicas a cada VLAN. Incluye manejo seguro de credenciales y finaliza comprobando el éxito del despliegue mediante el comando show ip dhcp pool. 
 
 ## 🚀 Cómo ejecutar este proyecto
 
