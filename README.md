@@ -45,9 +45,9 @@ python 01_config_router.py
 
 **Cierre de la etapa 1**
 - [ ] Restringir las VLANs permitidas en los troncales (`allowed vlan`) y apagar los puertos sin uso.
-- [ ] Configurar DHCP (pool y relay).
-- [ ] Crear una plantilla personalizada en Zabbix.
-- [ ] Integrar Zabbix con Grafana para armar dashboards más completos.
+- [x] Configurar DHCP (Se aplico ROAS, el DHCP server es el mismo router script subido).
+- [x] Crear una plantilla personalizada en Zabbix.
+- [x] Integrar Zabbix con Grafana para armar dashboards más completos.
 
 **Etapa 2: conexión entre sedes**
 - [ ] Sumar las sucursales 2 y 3 al laboratorio.
